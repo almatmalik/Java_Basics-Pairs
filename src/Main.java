@@ -1,3 +1,4 @@
+//Added some commentaries to Main
 public class Main {
     public static void main(String[] args) {
         Pair<Integer, String> pair = Pair.of(1, "hello");
@@ -9,8 +10,6 @@ public class Main {
         System.out.println(mustBeTrue);
         boolean mustAlsoBeTrue = pair.hashCode() == pair2.hashCode(); // true!
         System.out.println(mustAlsoBeTrue);
-
-
 
     }
 }
